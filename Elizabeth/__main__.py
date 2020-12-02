@@ -40,22 +40,25 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = f"""
 `Hi..Welcome` 👀
-`I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
+`I'm` [Ciara](https://telegra.ph/file/1e9c9acc729028e1bd8ec.jpg)
+
+'My Master' [🎭 Kavi_Ya 🎭](https://t.me/Kaveesha_Induwara)
+
 `I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
 """
 
-buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
+buttons = [[InlineKeyboardButton(text="➡️ Help And Commands ⬅️",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🌍 ADD ME TO YOUR GROUP 🌍",
+buttons += [[InlineKeyboardButton(text="🌍 Add Me To Your Group 🌍",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💾SOURCE CODE",
-                                  url="https://github.com/P-RINC-E/ELIZABETH"),
-             InlineKeyboardButton(text="🌳SUPPORT",
-                                  url="https://t.me/ELIZABETH_SUPPORT"),
+buttons += [[InlineKeyboardButton(text="🎥 Support Group 🎥",
+                                  url="https://t.me/Tech_Wizard_Ent"),
+             InlineKeyboardButton(text="📱 Support Channel 📱",
+                                  url="https://t.me/Tech_Wizard_Entertainment"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
@@ -63,7 +66,7 @@ buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
 
 
 HELP_STRINGS = f"""
-`Hi.. I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
+`Hi.. I'm` [Ciara](https://telegra.ph/file/1e9c9acc729028e1bd8ec.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
